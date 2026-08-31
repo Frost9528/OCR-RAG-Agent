@@ -1,4 +1,4 @@
-# Agentic RAG OCR Frontend
+# AOCR-RAG-Agent Frontend
 
 基于 React + TypeScript 的 OCR RAG 系统前端界面，提供文档上传、索引构建和智能问答功能。
 

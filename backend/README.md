@@ -1,4 +1,4 @@
-# Agentic RAG OCR Backend
+# AOCR-RAG-Agent Backend
 
 多模态 RAG 系统后端服务，支持 PDF 和图片文档的解析、索引和问答。
 
