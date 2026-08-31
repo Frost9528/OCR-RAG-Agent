@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.dev
+.env.prod
+.env.production
+backend/.env.dev
+backend/.env.*
+!backend/.env.example
+
+# Node / Frontend
+node_modules/
+dist/
+.npm
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Logs
+*.log
+logs/
+frontend.log
+backend.log
+
+# Database / Vector store（保留空目录结构）
+backend/data/**
+!backend/data/.gitkeep
+
+# Uploads（保留空目录结构）
+backend/uploads/**
+!backend/uploads/.gitkeep
+
+# Docs 临时文件（保留 .md 文档）
+backend/docs/*.tmp
+
+# 个人本地文档（不上传仓库）
+docs/
+backend/docs/TODOLIST.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# OS
+.DS_Store
+desktop.ini
+
+# Test artifacts
+*.tmp
+*.cache
